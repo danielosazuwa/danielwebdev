@@ -1,0 +1,41 @@
+.article_content {
+  margin-top: 80px;
+  padding: 0px 30px;
+}
+
+.article_list {
+  padding: 10px 70px;
+}
+
+#list {
+  margin-top: 25px;
+}
+
+button#readmore {
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+.sub {
+  margin-top: 5px;
+}
+.social_icon img {
+  padding: 0px 2px;
+  width: 30px;
+  height: 25px;
+}
+
+@media (min-width: 0px) and (max-width: 667px) {
+  .article_list {
+    padding: 10px 30px;
+  }
+  .social_icon {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .social_icon img {
+    padding: 0px 2px;
+    width: 25px;
+    height: 20px;
+  }
+}
